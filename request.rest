@@ -1,0 +1,17 @@
+GET http://localhost:3003/pokemons/details/milotic
+Content-Type: application/json
+
+###
+
+GET http://localhost:3003/pokemons/1
+Content-Type: application/json
+
+###
+
+GET http://localhost:3003/pokemons/legendary/1
+Content-Type: application/json
+
+###
+
+GET http://localhost:3003/pokemons/type/1?type=fire
+Content-Type: application/json
